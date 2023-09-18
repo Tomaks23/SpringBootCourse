@@ -1,0 +1,23 @@
+C:\WINDOWS\system32>f:
+
+F:\>cd F:\dev-spring-boot\01-spring-boot-overview
+
+F:\dev-spring-boot\01-spring-boot-overview>cd F:\dev-spring-boot\01-spring-boot-overview\05-command-line-demo
+
+F:\dev-spring-boot\01-spring-boot-overview\05-command-line-demo>mvnw package
+
+F:\dev-spring-boot\01-spring-boot-overview\05-command-line-demo\target>dir *.jar
+ Volume in drive F is Podaci
+ Volume Serial Number is 3EAA-F1A5
+
+ Directory of F:\dev-spring-boot\01-spring-boot-overview\05-command-line-demo\target
+
+10.08.2023  22:47        18.977.376 mycoolapp-0.0.1-SNAPSHOT.jar
+               1 File(s)     18.977.376 bytes
+               0 Dir(s)  80.483.901.440 bytes free
+
+F:\dev-spring-boot\01-spring-boot-overview\05-command-line-demo\target>java -jar mycoolapp-0.0.1-SNAPSHOT.jar
+
+
+OR
+F:\dev-spring-boot\01-spring-boot-overview\05-command-line-demo>mvnw spring-boot:run

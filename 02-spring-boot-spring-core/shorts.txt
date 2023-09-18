@@ -1,0 +1,33 @@
+
+			Spring boot:
+
+@RestController{
+
+@Autowired
+Constructor{}
+
+@GetMapping("/asd")
+
+}
+
+
+@Lazy - instancira objekat po potrebi
+@Prototype - kreira se (instancira) novi bean svaki put kada se aplikacija pokrene 
+	-@Lazy po defaultu
+	- Ne pokrece @PreDestroy metodu (metoda se pokrece kada se zavrsi lifecycle aplikacije)
+
+
+@Singleton - instancira se samo jedno pri prvom pokretanju aplikacije 
+
+
+@Configuration{
+
+@Bean - instanciranje beana unutar klase, drugaciji nacin instanciranja umesto @Component anotacije. 
+	Korisiti se kada predefinisanu klasu hocemo da pretvorimo u bean i instanciramo kada je to potrebno. 
+	Lakse se kontrolise kreiranje objekta (intanciranje)
+
+}
+
+			Hibernate:
+
+
