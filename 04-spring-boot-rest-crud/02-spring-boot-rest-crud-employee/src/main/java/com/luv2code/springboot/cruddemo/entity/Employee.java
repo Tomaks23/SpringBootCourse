@@ -11,12 +11,6 @@ import lombok.*;
 @Table(name = "employee")
 public class Employee {
 
-    public Employee(String firstName, String lastName, String email) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
-    }
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
